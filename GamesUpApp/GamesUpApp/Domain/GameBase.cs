@@ -33,7 +33,7 @@
                 throw new Exception("Descrição está em branco ou inválida");
 
             if (string.IsNullOrEmpty(platform) || platform == "string" || platform.Length > 100)
-                throw new Exception("Platforma está em branco ou inválida");
+                throw new Exception("Plataforma está em branco ou inválida");
 
             if (totalHours < 0)
                 throw new Exception("Horas jogadas está em branco ou inválida");
